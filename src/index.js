@@ -1,3 +1,6 @@
-import './styles.sass';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './styles/index.sass';
+import App from './components/App';
 
-console.log('hello world :)');
+ReactDOM.render(<App />, document.querySelector('#main'));

@@ -1,0 +1,24 @@
+.spinner__container
+    display: inline-block
+    animation: spin2 5s linear infinite
+
+.spinner
+    width: 30px
+    height: 30px
+    margin: 0 auto
+    border: 5px solid rgba(0, 0, 0, 0.2)
+    border-top-color: crimson
+    border-radius: 50%
+    animation: spin1 1.5s infinite
+
+@keyframes spin1
+    from
+        transform: rotate(0)
+    to
+        transform: rotate(360deg)
+
+@keyframes spin2
+    from
+        transform: rotate(0)
+    to
+        transform: rotate(360deg)
